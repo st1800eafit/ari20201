@@ -1,0 +1,15 @@
+index = "ejemplo1-metapy-idx"
+corpus = "file.toml"
+dataset = "data"
+query-judgements = "./ejemplo1-qrels.txt"
+prefix = "."
+stop-words = "./lemur-stopwords.txt"
+[ranker]
+	k3 = 500
+	b = 0.750000
+	k1 = 1.20000
+	method = "bm25"
+[[analyzers]]
+	filter = "default-unigram-chain"
+	ngram = 1
+	method = "ngram-word"
