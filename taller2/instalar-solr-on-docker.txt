@@ -27,7 +27,7 @@ Bajar Solr:
 Reinstalar Solr:
 
     [ec2-user@ip-172-31-45-193 ~]$ docker-compose down
-    [ec2-user@ip-172-31-45-193 ~]$ rm -rf solr
+    [ec2-user@ip-172-31-45-193 ~]$ sudo rm -rf solr
     [ec2-user@ip-172-31-45-193 ~]$ docker rm my_solr
     [ec2-user@ip-172-31-45-193 ~]$ mkdir solr
     [ec2-user@ip-172-31-45-193 ~]$ chmod 777 solr
