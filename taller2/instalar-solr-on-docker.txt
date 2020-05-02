@@ -33,4 +33,6 @@ Reinstalar Solr:
     [ec2-user@ip-172-31-45-193 ~]$ chmod 777 solr
     [ec2-user@ip-172-31-45-193 ~]$ docker-compose up -d
     [ec2-user@ip-172-31-45-193 ~]$ docker exec -it my_solr cp -r /bitnami/solr/data/configsets/sample_techproducts_configs/conf/ /bitnami/solr/data/taller2/
+    [ec2-user@ip-172-31-45-193 ~]$ docker-compose down
+    [ec2-user@ip-172-31-45-193 ~]$ docker-compose up -d
     
